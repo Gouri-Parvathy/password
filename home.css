@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 8px 1px gray;
+}
+.whole-container{
+    background-color: rgb(224, 217, 217);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    font-weight: bolder;
+    font-size: 25px;
+}
+#pass{
+    width: 290px;
+    height: 30px;
+    margin-top: 20px;
+    padding-left: 5px;
+}
+#desc-1{
+    height: 7px;
+    width: 100px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+#desc-2{
+    height: 7px;
+    width: 100px;
+    background-color: lightgray;
+    border-radius: 10px; 
+}
+#desc-3{
+    height: 7px;
+    width: 100px;
+    background-color: lightgray;
+    border-radius: 10px; 
+}
+#description-wrapper{
+  display: flex;
+  margin-top: 5px;
+}
